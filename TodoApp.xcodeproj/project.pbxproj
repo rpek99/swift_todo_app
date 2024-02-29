@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E31697A82B8E1C8800739F90 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31697A72B8E1C8800739F90 /* Extensions.swift */; };
 		E3359F632B82814100AD5987 /* TodoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3359F622B82814100AD5987 /* TodoAppApp.swift */; };
 		E3359F652B82814100AD5987 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3359F642B82814100AD5987 /* MainView.swift */; };
 		E3359F672B82814100AD5987 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3359F662B82814100AD5987 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 		E3359FB62B828D6600AD5987 /* ToDoListItemViewViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3359FB52B828D6600AD5987 /* ToDoListItemViewViewModal.swift */; };
 		E3359FB82B828D7B00AD5987 /* NewItemViewViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3359FB72B828D7B00AD5987 /* NewItemViewViewModal.swift */; };
 		E3359FBA2B82A8F900AD5987 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3359FB92B82A8F900AD5987 /* HeaderView.swift */; };
+		E3359FBC2B8DF3E700AD5987 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3359FBB2B8DF3E700AD5987 /* TLButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E31697A72B8E1C8800739F90 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		E3359F5F2B82814100AD5987 /* TodoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3359F622B82814100AD5987 /* TodoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAppApp.swift; sourceTree = "<group>"; };
 		E3359F642B82814100AD5987 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -82,6 +85,7 @@
 		E3359FB52B828D6600AD5987 /* ToDoListItemViewViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModal.swift; sourceTree = "<group>"; };
 		E3359FB72B828D7B00AD5987 /* NewItemViewViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewViewModal.swift; sourceTree = "<group>"; };
 		E3359FB92B82A8F900AD5987 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		E3359FBB2B8DF3E700AD5987 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +185,7 @@
 				E3359FA32B828B8800AD5987 /* ToDoListItemView.swift */,
 				E3359FA52B828BA000AD5987 /* NewItemView.swift */,
 				E3359FB92B82A8F900AD5987 /* HeaderView.swift */,
+				E3359FBB2B8DF3E700AD5987 /* TLButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -214,6 +219,7 @@
 				E3359F662B82814100AD5987 /* Assets.xcassets */,
 				E3359F952B82848E00AD5987 /* GoogleService-Info.plist */,
 				E3359F622B82814100AD5987 /* TodoAppApp.swift */,
+				E31697A72B8E1C8800739F90 /* Extensions.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -365,6 +371,7 @@
 				E3359FA42B828B8800AD5987 /* ToDoListItemView.swift in Sources */,
 				E3359FB82B828D7B00AD5987 /* NewItemViewViewModal.swift in Sources */,
 				E3359FAC2B828CF900AD5987 /* MainViewViewModal.swift in Sources */,
+				E3359FBC2B8DF3E700AD5987 /* TLButton.swift in Sources */,
 				E3359FB22B828D2A00AD5987 /* LoginViewViewModal.swift in Sources */,
 				E3359FAE2B828D0700AD5987 /* ProfileViewViewModal.swift in Sources */,
 				E3359F652B82814100AD5987 /* MainView.swift in Sources */,
@@ -372,6 +379,7 @@
 				E3359F9E2B828B4700AD5987 /* RegisterView.swift in Sources */,
 				E3359FB02B828D1B00AD5987 /* RegisterViewViewModal.swift in Sources */,
 				E3359FA82B828C8400AD5987 /* User.swift in Sources */,
+				E31697A82B8E1C8800739F90 /* Extensions.swift in Sources */,
 				E3359F9C2B828B3800AD5987 /* ProfileView.swift in Sources */,
 				E3359FA02B828B5700AD5987 /* LoginView.swift in Sources */,
 				E3359FB62B828D6600AD5987 /* ToDoListItemViewViewModal.swift in Sources */,

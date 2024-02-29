@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+class ProfileViewViewModal: ObservableObject{
+    init(){
+        
+    }
+}
